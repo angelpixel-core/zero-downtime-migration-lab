@@ -1,0 +1,78 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (8.0.5.1)
+      activesupport (= 8.0.5.1)
+    activerecord (8.0.5.1)
+      activemodel (= 8.0.5.1)
+      activesupport (= 8.0.5.1)
+      timeout (>= 0.4.0)
+    activesupport (8.0.5.1)
+      base64
+      benchmark (>= 0.3)
+      bigdecimal
+      concurrent-ruby (~> 1.0, >= 1.3.1)
+      connection_pool (>= 2.2.5)
+      drb
+      i18n (>= 1.6, < 2)
+      logger (>= 1.4.2)
+      minitest (>= 5.1)
+      securerandom (>= 0.3)
+      tzinfo (~> 2.0, >= 2.0.5)
+      uri (>= 0.13.1)
+    base64 (0.3.0)
+    benchmark (0.5.0)
+    bigdecimal (4.1.3)
+    concurrent-ruby (1.3.8)
+    connection_pool (3.0.2)
+    drb (2.2.3)
+    i18n (1.15.2)
+      concurrent-ruby (~> 1.0)
+    logger (1.7.0)
+    mini_portile2 (2.8.9)
+    minitest (6.0.6)
+      drb (~> 2.0)
+      prism (~> 1.5)
+    prism (1.9.0)
+    securerandom (0.4.1)
+    sqlite3 (2.10.1)
+      mini_portile2 (~> 2.8.0)
+    strong_migrations (2.8.0)
+      activerecord (>= 7.2)
+    timeout (0.6.1)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+    uri (1.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activerecord (>= 7.1, < 8.1)
+  sqlite3 (>= 1.7, < 3.0)
+  strong_migrations (~> 2.0)
+
+CHECKSUMS
+  activemodel (8.0.5.1) sha256=559be32aa9c40db7a3ee0aef926d4508a9ebd22f96f7276c11326d21a7dff4a4
+  activerecord (8.0.5.1) sha256=9252968fce404d75eb17092498a440d472167f2f8deee32b4658d6552b1eeea7
+  activesupport (8.0.5.1) sha256=329a4280c4fbcfcf338ae2cb9df28b0b14527929dba105e10b3604516d998710
+  base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
+  benchmark (0.5.0) sha256=465df122341aedcb81a2a24b4d3bd19b6c67c1530713fd533f3ff034e419236c
+  bigdecimal (4.1.3) sha256=61ebe1e5e559bdc3cc6f2c0ee7f427321fc838f59611c294356eb04d6e21cf66
+  concurrent-ruby (1.3.8) sha256=b2f1be836e968ccc78ccfce277ea79c72a88633f22306782c16ff23fb415d1e1
+  connection_pool (3.0.2) sha256=33fff5ba71a12d2aa26cb72b1db8bba2a1a01823559fb01d29eb74c286e62e0a
+  drb (2.2.3) sha256=0b00d6fdb50995fe4a45dea13663493c841112e4068656854646f418fda13373
+  i18n (1.15.2) sha256=00f9eb62412fe593b2a65a97daa75300d37abb8f7202ec748e94b6d46a9dd1b5
+  logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
+  mini_portile2 (2.8.9) sha256=0cd7c7f824e010c072e33f68bc02d85a00aeb6fce05bb4819c03dfd3c140c289
+  minitest (6.0.6) sha256=153ea36d1d987a62942382b61075745042a2b3123b1cd48f4c3675af9cc7d6f1
+  prism (1.9.0) sha256=7b530c6a9f92c24300014919c9dcbc055bf4cdf51ec30aed099b06cd6674ef85
+  securerandom (0.4.1) sha256=cc5193d414a4341b6e225f0cb4446aceca8e50d5e1888743fac16987638ea0b1
+  sqlite3 (2.10.1) sha256=7ae52c91f5b766882cf44d2dbd26d2dbbb841606f0ec78df3be019bd07b13ff4
+  strong_migrations (2.8.0) sha256=cb9c0f8160e60f3e9c0e76098d57a6f61825b9618e8eb41cebbd1c1079874439
+  timeout (0.6.1) sha256=78f57368a7e7bbadec56971f78a3f5ecbcfb59b7fcbb0a3ed6ddc08a5094accb
+  tzinfo (2.0.6) sha256=8daf828cc77bcf7d63b0e3bdb6caa47e2272dcfaf4fbfe46f8c3a9df087a829b
+  uri (1.1.2) sha256=89292e98eabbef6248b0a0ed5e7e398e152f83f17560023a6d94a7f492b169fb
+
+BUNDLED WITH
+  4.0.6
